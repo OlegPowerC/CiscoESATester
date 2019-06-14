@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueLookup id="esasmtplookup" desiredValue="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
+    <Lookups>
+        <SingleInt state="Ok" value="7">Ok</SingleInt>
+        <SingleInt state="Error" value="1">Banner error</SingleInt>
+        <SingleInt state="Error" value="2">Hello domain error</SingleInt>
+        <SingleInt state="Error" value="3">Sender rejected</SingleInt>
+        <SingleInt state="Error" value="4">Recipient rejected</SingleInt>
+        <SingleInt state="Error" value="5">Quitcommand error</SingleInt>
+        <SingleInt state="Error" value="6">Server connection error</SingleInt>
+    </Lookups>
+</ValueLookup>
